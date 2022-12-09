@@ -45,6 +45,7 @@ function App(props) {
             height: '30px',
             lineHeight:'30px'
           }}>
+            {/* 这个请求很慢 */}
             <Breadcrumb.Item href="/">
               <HomeOutlined />
             </Breadcrumb.Item>
@@ -60,7 +61,7 @@ function App(props) {
           </div>
         </div>
       </Layout>
-      <footer>Respect | Copyright &copy 2022 Author 你单排吧</footer>
+      <footer>Respect | Copyright &copy 2022 Author huangcj</footer>
     </Layout >
 
   )
