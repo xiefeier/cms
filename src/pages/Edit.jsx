@@ -132,7 +132,6 @@ export default function Edit() {
     // 注：class写法需要在componetWillUnmount中调用
     return () => {
       if (editor == null) return
-      console.log('准备销毁')
       editor.destroy()
       setEditor(null)
     }

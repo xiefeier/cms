@@ -42,8 +42,6 @@ export default function ListTable() {
             let newarr = JSON.parse(JSON.stringify(res.data.arr))
             let viewarticles = []
             newarr.map(item => {
-                console.log(item)
-
                 // item.date = moment(item.date).format('YYYY-MM-DD hh:mm:ss')
                 // item.mixTitle = `<div>
                 //     <Link className='table_title' to='/'>${item.title }</Link>

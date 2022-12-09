@@ -16,7 +16,6 @@ export default function Slider() {
     useEffect(()=>{
         const pathname = location.pathname
         setDefaultKey(pathname.split('/')[1])
-        // eslint-disable-next-line react-hooks/exhaustive-deps
     },[location.pathname])
 
 
