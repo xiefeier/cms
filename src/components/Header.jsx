@@ -75,7 +75,7 @@ export default function Header(props) {
                     <a className='ant-dropdown-link' href='/#' onClick={(e) => e.preventDefault()}>
                         <Space className='space'>
                             <img src={avatar}
-                                className='avatar' alt="" />
+                                className='avatar' alt="" style={{objectFit:'cover'}} />
                             <span>{username}</span>
                             <CaretDownOutlined />
                             {/* <DownOutlined /> */}
